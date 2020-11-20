@@ -1,0 +1,54 @@
+{
+    "root": true,
+    "env": {
+        "browser": false,
+        "es6": true,
+        "node": true
+    },
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+        "@typescript-eslint",
+        "jest"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:jest/recommended",
+        "prettier",
+        "prettier/@typescript-eslint"
+    ],
+    "rules": {
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "no-async-promise-executor": "off",
+        "@typescript-eslint/interface-name-prefix": "off",
+        "@typescript-eslint/no-explicit-any": "off",
+        "indent": [
+            "error",
+            4
+        ],
+        "@typescript-eslint/camelcase": "warn",
+        "array-callback-return": "error",
+        "no-empty-function": "error",
+        "no-implied-eval": "error",
+        "no-var": "error",
+        "prefer-arrow-callback": "warn",
+        "quotes": [
+            "error",
+            "single",
+            {
+                "allowTemplateLiterals": true
+            }
+        ],
+        "no-trailing-spaces": "error",
+        "prefer-const": "error",
+        "eqeqeq": "error",
+        "brace-style": "error",
+        "curly": "error",
+        "object-curly-spacing": [
+            "error",
+            "always"
+        ],
+        "function-paren-newline": "error"
+    }
+}
