@@ -1,1 +1,1 @@
-export default './src/Thadeus';
+export { Thadeus } from './src/Thadeus';
