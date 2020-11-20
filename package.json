@@ -38,9 +38,6 @@
     "type": "git",
     "url": ""
   },
-  "np": {
-    "contents": "build"
-  },
   "publishConfig": {
 	"access": "public"
   },
