@@ -1,6 +1,6 @@
 {
   "name": "thadeus",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Thadeus API npm package",
   "engines": {
     "node": ">= 14"
@@ -39,7 +39,7 @@
     "url": ""
   },
   "publishConfig": {
-	"access": "public"
+    "access": "public"
   },
   "dependencies": {
     "np": "^7.0.0",
